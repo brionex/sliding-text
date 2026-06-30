@@ -22,30 +22,13 @@
   }
 }
 
-.sliding-hide {
-  visibility: hidden;
-}
-
 @keyframes textIn {
-  0% {
-    transform: translateY(100%);
-  }
-
-  60% {
-    transform: translateY(-10%);
-  }
-
-  100% {
-    transform: translateY(0%);
-  }
+  0% { transform: translateY(100%); }
+  60% { transform: translateY(-10%); }
+  100% { transform: translateY(0%); }
 }
 
 @keyframes textOut {
-  0% {
-    transform: translateY(0%);
-  }
-
-  100% {
-    transform: translateY(-130%);
-  }
+  0% { transform: translateY(0%); }
+  100% { transform: translateY(-130%); }
 }
